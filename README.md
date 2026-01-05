@@ -22,20 +22,11 @@ The application maintains several `collections.deque` objects to store the point
 
 ### Mathematical Point Mapping:
 The index finger landmark (ID 8) is mapped from normalized coordinates $(x, y)$ to the frame's pixel dimensions:
-
-<<<<<<< Updated upstream
-$$P_{x} = x_{landmark} \times \text{Frame\_Width}$$
-$$P_{y} = y_{landmark} \times \text{Frame\_Height}$$
-
-Whenever the finger is detected in the "Drawing Zone" (below the selection buttons), the points are appended to the active deque and connected using the `cv2.line` function.
-=======
 $$Px = x \times Width$$
 
 $$Py = y \times Height$$
 
 Whenever the finger is detected in the "Drawing Zone" (below the selection buttons), the points are appended to the active deque and connected using the `cv2.line` function.
-
->>>>>>> Stashed changes
 
 ---
 
