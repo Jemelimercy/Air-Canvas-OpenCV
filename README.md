@@ -22,6 +22,7 @@ The application maintains several `collections.deque` objects to store the point
 
 ### Mathematical Point Mapping:
 The index finger landmark (ID 8) is mapped from normalized coordinates $(x, y)$ to the frame's pixel dimensions:
+
 $$Px = x \times Width$$
 
 $$Py = y \times Height$$
